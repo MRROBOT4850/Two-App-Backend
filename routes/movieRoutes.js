@@ -2,7 +2,7 @@ const express = require("express");
 const axios = require("axios");
 const Movie = require("../models/Movie");
 const User = require("../models/User");
-const { authMiddleware } = require("../middleware/authmiddleware");
+//const { authMiddleware } = require("../middleware/authmiddleware");
 const router = express.Router();
 //const authMiddleware =require("../middleware/authMiddleware");
 
